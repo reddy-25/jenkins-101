@@ -12,7 +12,7 @@ pipeline {
             steps {
                 echo "Building.."
                 sh '''
-                apt install python
+                sudo apt install python
                 cd myapp
                 '''
             }
